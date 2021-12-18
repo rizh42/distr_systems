@@ -21,6 +21,6 @@ public class Airport implements Serializable {
     }
 
     public final Tuple2<Integer, String> getTupleAirport(){
-        return new Tuple2<>()
+        return new Tuple2<>(code, name);
     }
 }
