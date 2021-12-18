@@ -1,0 +1,7 @@
+/home/fives/IdeaProjects/distr_sys/lab2/src/main/java/bmstu/iu9/AirportMapper.java
+/home/fives/IdeaProjects/distr_sys/lab2/src/main/java/bmstu/iu9/AirportWritableComparable.java
+/home/fives/IdeaProjects/distr_sys/lab2/src/main/java/bmstu/iu9/AirportReduce.java
+/home/fives/IdeaProjects/distr_sys/lab2/src/main/java/bmstu/iu9/FlightMapper.java
+/home/fives/IdeaProjects/distr_sys/lab2/src/main/java/bmstu/iu9/AirportApp.java
+/home/fives/IdeaProjects/distr_sys/lab2/src/main/java/bmstu/iu9/AirportComparator.java
+/home/fives/IdeaProjects/distr_sys/lab2/src/main/java/bmstu/iu9/AirportPartitioner.java
