@@ -10,6 +10,7 @@ public class AirportComparator extends WritableComparator {
 
     @Override
     public int compare(WritableComparable air1, WritableComparable air2){
-        AirportWritableComparable airport1 = 
+        AirportWritableComparable airport1 = (AirportWritableComparable) air1;
+
     }
 }
