@@ -6,7 +6,9 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
 
     public static String SEP = ",";
     public static int AIRPORT_ID = 14;
-    public static int
+    public static int FLIGHT_ID = 1;
+    public static int 
+
 
     @Override
     protected ciod map(LongWritable key, Text value, Context context){
@@ -16,8 +18,8 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
             String delay =  params[18];
             float delayFl = delay.isEmpty() ? 0.0f : Float.parseFloat(delay);
             if (delayFl > 0.0f){
-                int airID = Integer.parseInt(params[14]);
-                context.write(new AirportWritableComparable(airID, AIRPORT_ID), new Text(delay))
+                int airID = Integer.parseInt(params[AIRPORT_ID]);
+                context.write(new AirportWritableComparable(airID, FLIGHT_ID), new Text(delay))
             }
         }
     }
