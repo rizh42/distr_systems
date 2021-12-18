@@ -4,5 +4,6 @@ import java.io.Serializable;
 
 public class Flight implements Serializable {
     public int startAirportId;
-    public int destAirport
+    public int destAirportId;
+    
 }
