@@ -13,6 +13,7 @@ public class AirMapper extends Mapper<LongWritable, Text>{
         String[] params = value.toString().split("\",\"");
 
         if(key.get > 0){
+            String name;
             
         }
     }
