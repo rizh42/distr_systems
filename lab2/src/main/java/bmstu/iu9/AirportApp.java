@@ -15,6 +15,6 @@ public class AirportApp {
 
         job.setMapOutputKeyClass(AirportWritableComparable.class);
         job.setMapOutputValueClass(Text.class);
-        job.setPa
+        job.setPartitionerClass
     }
 }
