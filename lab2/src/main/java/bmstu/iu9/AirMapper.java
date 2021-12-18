@@ -9,5 +9,5 @@ public class AirMapper extends Mapper{
     public statit int air_id = 0;
 
     @Override
-    protected 
+    protected void map 
 }
