@@ -1,4 +1,6 @@
 package bmstu.iu9;
 
-public class Flight {
+import java.io.Serializable;
+
+public class Flight implements Serializable {
 }
