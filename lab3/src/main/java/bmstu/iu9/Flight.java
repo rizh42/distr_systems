@@ -16,6 +16,9 @@ public class Flight implements Serializable {
     public Flight(int startAirportId, int destAirportId, float delayed, boolean cancelled){
         this.startAirportId = startAirportId;
         this.destAirportId = destAirportId;
-        
+        this.delayed = delayed;
+        this.cancelled = cancelled;
     }
+
+    
 }
