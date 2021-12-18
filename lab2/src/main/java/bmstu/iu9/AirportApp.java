@@ -1,7 +1,9 @@
 package bmstu.iu9;
 
 public class AirportApp {
-    public static void main(String[] args) {
-        if (args.length != 3)
+    public static void main(String[] args) throws  {
+        if (args.length != 3){
+
+        }
     }
 }
