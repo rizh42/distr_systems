@@ -16,7 +16,7 @@ public class AirMapper extends Mapper<LongWritable, Text, WritableComparable, Te
             String name;
             int airID = Integer.parseInt(params[0].split("\"")[1]);
             name = params[1].split("\"")[0];
-            context.write(new WritableComparable);
+            context.write(new WritableComparable(airID));
         }
     }
 }
