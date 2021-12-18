@@ -14,7 +14,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
             String delay =  params[18];
             float delayFl = delay.isEmpty() ? 0.0f : Float.parseFloat(delay);
             if (delayFl > 0.0f){
-                int airID = 
+                int airID = Integer.parseInt()
             }
         }
     }
