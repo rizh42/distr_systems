@@ -13,6 +13,6 @@ public class AirportComparator extends WritableComparator {
         AirportWritableComparable airport1 = (AirportWritableComparable) air1;
         AirportWritableComparable airport2 = (AirportWritableComparable) air2;
 
-        return  Integer.compare()
+        return  Integer.compare(airport1.)
     }
 }
