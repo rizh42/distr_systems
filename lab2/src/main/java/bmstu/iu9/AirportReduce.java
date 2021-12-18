@@ -19,8 +19,8 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
         while (valIterated.hasNext()){
             float delay = Float.parseFloat(values.next().toString());
             if (delay > max){
-                
-            }
+                max = delay;
+            } 
         }
     }
 }
