@@ -63,6 +63,6 @@ public class AirportWritableComparable implements WritableComparable {
         if (this == t) return true;
         if (t == null || getClass() != t.getClass()) return false;
         AirportWritableComparable air = (AirportWritableComparable)t;
-        
+        return 
     }
 }
