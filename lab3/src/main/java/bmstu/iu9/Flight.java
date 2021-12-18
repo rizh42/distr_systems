@@ -9,5 +9,5 @@ public class Flight implements Serializable {
     public boolean cancelled;
 
     public static int START_AIRPORT_ID_IND = 11;
-    public static int 
+    public static int DES_AIRPORT_ID_IND = 
 }
