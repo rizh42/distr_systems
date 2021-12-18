@@ -59,5 +59,5 @@ public class AirportWritableComparable implements WritableComparable {
     }
 
     @Override
-    
+    public boolean 
 }
