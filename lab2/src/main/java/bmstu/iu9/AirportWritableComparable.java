@@ -49,4 +49,7 @@ public class AirportWritableComparable implements WritableComparable {
                 "airportID = " + airportID +
                 ", ind = " + ind + ")";
     }
+
+    @Override
+    
 }
