@@ -8,6 +8,8 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
 
     @Override
     protected ciod map(LongWritable key, Text value, Context context){
-        String[] params = value.toString().split()
+        String[] params = value.toString().split(SEP);
+
+        
     }
 }
