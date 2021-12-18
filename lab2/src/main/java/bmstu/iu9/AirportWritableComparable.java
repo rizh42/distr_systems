@@ -4,7 +4,7 @@ import org.apache.hadoop.io.WritableComparable;
 
 public class AirportWritableComparable implements WritableComparable {
     private int airportID;
-    
+    private int 
 
     pulic AirWritableComparable(){}
 
