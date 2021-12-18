@@ -17,7 +17,8 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
         float min = -1.0f;
 
         while (valIterated.hasNext()){
-            float delay = Float.parseFloat(values.)
+            float delay = Float.parseFloat(values.next().toString());
+            
         }
     }
 }
