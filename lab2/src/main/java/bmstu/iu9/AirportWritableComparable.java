@@ -53,6 +53,7 @@ public class AirportWritableComparable implements WritableComparable {
     @Override
     public int compareTo(Object t){
         AirportWritableComparable air = (AirportWritableComparable)t;
-        if (this.airportID > )
+        if (this.airportID > air.airportID) return 1;
+        
     }
 }
