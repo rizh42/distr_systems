@@ -7,7 +7,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
     public static String SEP = ",";
     public static int AIRPORT_ID = 14;
     public static int FLIGHT_ID = 1;
-    public static int 
+    public static int DELAY_ID = 18;
 
 
     @Override
@@ -15,7 +15,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
         String[] params = value.toString().split(SEP);
 
         if(key.get() > 0){
-            String delay =  params[18];
+            String delay =  params[DELAY_ID];
             float delayFl = delay.isEmpty() ? 0.0f : Float.parseFloat(delay);
             if (delayFl > 0.0f){
                 int airID = Integer.parseInt(params[AIRPORT_ID]);
