@@ -10,6 +10,6 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
     protected ciod map(LongWritable key, Text value, Context context){
         String[] params = value.toString().split(SEP);
 
-        
+        if(key.get > )
     }
 }
