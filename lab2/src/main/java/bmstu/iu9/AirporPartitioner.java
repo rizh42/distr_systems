@@ -1,4 +1,4 @@
 package bmstu.iu9;
 
-public class AirporPartitioner extends {
+public class AirporPartitioner extends Partitioner<>{
 }
