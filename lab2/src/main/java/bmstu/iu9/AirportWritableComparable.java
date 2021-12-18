@@ -33,6 +33,6 @@ public class AirportWritableComparable implements WritableComparable {
 
     @Override
     public void readFields(DataOutput data){
-        data.writeInt()
+        data.readInt()
     }
 }
