@@ -4,5 +4,7 @@ import scala.Serializable;
 
 public class Airport implements Serializable {
     public int code;
+    public String name;
+
     
 }
