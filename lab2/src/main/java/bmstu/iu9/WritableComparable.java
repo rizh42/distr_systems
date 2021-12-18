@@ -1,6 +1,7 @@
 package bmstu.iu9;
 
-import 
+import java.io.*;
+
 
 public class WritableComparable {
 }
