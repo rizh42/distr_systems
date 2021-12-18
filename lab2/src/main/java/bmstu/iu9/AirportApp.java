@@ -13,6 +13,6 @@ public class AirportApp {
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightMapper.class);
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, AirportMapper.class);
 
-        job.setMapOut
+        job.setMapOutputKeyClass()
     }
 }
