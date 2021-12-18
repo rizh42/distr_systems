@@ -1,4 +1,7 @@
 package bmstu.iu9;
 
-public class FlightReduce {
+import java.io.Serializable;
+
+public class FlightReduce implements Serializable {
+    
 }
