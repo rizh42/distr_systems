@@ -40,6 +40,6 @@ public class AirportWritableComparable implements WritableComparable {
     @Override
     public void write(DataOutput data){
         data.writeInt(airportID);
-        data.writeInt();
+        data.writeInt(ind);
     }
 }
