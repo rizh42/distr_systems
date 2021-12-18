@@ -12,6 +12,8 @@ public class AirMapper extends Mapper<LongWritable, Text>{
     protected void map(LongWritable key, Text value){
         String[] params = value.toString().split("\",\"");
 
-        
+        if(key.get > 0){
+            
+        }
     }
 }
