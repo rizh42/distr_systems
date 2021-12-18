@@ -8,5 +8,6 @@ public class Flight implements Serializable {
     public float delayed;
     public boolean cancelled;
 
-    public static int START_AIRPORT_ID_IND =
+    public static int START_AIRPORT_ID_IND = 11;
+    public static int 
 }
