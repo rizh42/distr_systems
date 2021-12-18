@@ -30,7 +30,7 @@ public class Flight implements Serializable {
                 list[START_AIRPORT_ID_IND],
                 list[DEST_AIRPORT_ID_IND],
                 list[DELAY_IND],
-                list[]
-        )
+                list[CANCELLED_IND].isEmpty()
+        );
     }
 }
