@@ -12,6 +12,7 @@ public class Airport implements Serializable {
     }
 
     public static Airport getData(String CSV){
-        String[] list = CSV.split(",", )
+        String[] list = CSV.split(",", 2);
+        
     }
 }
