@@ -8,5 +8,5 @@ public class AirportWritableComparable implements WritableComparable {
 
     pulic AirWritableComparable(){}
 
-    
+    public void 
 }
