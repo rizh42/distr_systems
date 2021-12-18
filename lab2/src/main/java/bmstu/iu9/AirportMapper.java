@@ -5,7 +5,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 
-public class AirMapper extends Mapper<LongWritable, Text, AirportWritableComparable, Text>{
+public class AirportMapper extends Mapper<LongWritable, Text, AirportWritableComparable, Text>{
     @Override
     protected void map(LongWritable key, Text value){
         String[] params = value.toString().split("\",\"");
