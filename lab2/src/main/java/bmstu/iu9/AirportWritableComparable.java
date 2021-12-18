@@ -8,5 +8,7 @@ public class AirportWritableComparable implements WritableComparable {
 
     pulic AirWritableComparable(){}
 
-    public void setAirportID()
+    public void setAirportID(int airportID){
+        
+    }
 }
