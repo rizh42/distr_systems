@@ -24,5 +24,5 @@ public class Flight implements Serializable {
         return new Tuple2<>(new Tuple2<>(startAirportId, destAirportId), this);
     }
 
-    
+    public static 
 }
