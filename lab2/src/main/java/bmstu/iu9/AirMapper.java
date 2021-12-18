@@ -5,7 +5,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 
-public class AirMapper extends Mapper<LongWritable, Text, wtitableComparable, >{
+public class AirMapper extends Mapper<LongWritable, Text, wtitableComparable, Text>{
     public statit int air_id = 0;
 
     @Override
@@ -16,7 +16,7 @@ public class AirMapper extends Mapper<LongWritable, Text, wtitableComparable, >{
             String name;
             int airID = Integer.parseInt(params[0].split("\"")[1]);
             name = params[1].split("\"")[0];
-            context.write()
+            context.write();
         }
     }
 }
