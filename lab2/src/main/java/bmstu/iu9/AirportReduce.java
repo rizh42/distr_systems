@@ -10,6 +10,7 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
     @Override
     protected void reduce(AirportWritableComparable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> valIterated = values.iterator();
-        String air = valIterated.
+        String air = valIterated.next().toString();
+        
     }
 }
