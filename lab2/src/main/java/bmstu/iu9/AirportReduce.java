@@ -13,6 +13,7 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
         String air = valIterated.next().toString();
         float max = 0.0f;
         float sum = 0.0f;
+        int count = 0;
         
     }
 }
