@@ -70,7 +70,7 @@ public class AirportWritableComparable implements WritableComparable {
     }
 
     @Override
-    public int hash(){
+    public int hashCode(){
         return Objects.hash(airportID, ind);
     }
 }
