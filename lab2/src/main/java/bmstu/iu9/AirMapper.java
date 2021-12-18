@@ -5,7 +5,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 
-public class AirMapper extends Mapper{
+public class AirMapper extends Mapper<>{
     public statit int air_id = 0;
 
     @Override
