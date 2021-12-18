@@ -1,6 +1,11 @@
 package bmstu.iu9;
 
-import java.io.FileOutputStream;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
+import org.apache.hadoop.mapreduce.Job;
 
 public class AirportApp {
     public static void main(String[] args) throws Exception {
