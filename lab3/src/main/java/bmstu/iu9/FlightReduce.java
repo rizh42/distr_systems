@@ -8,5 +8,5 @@ public class FlightReduce implements Serializable {
     public float countCancelled;
     public float countNormal;
 
-    public
+    public 
 }

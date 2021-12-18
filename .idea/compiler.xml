@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lab2" />
+        <module name="spark-examples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lab2" target="7" />
       <module name="lab3" target="8" />
+      <module name="spark-examples" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
