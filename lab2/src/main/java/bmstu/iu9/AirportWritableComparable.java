@@ -67,5 +67,5 @@ public class AirportWritableComparable implements WritableComparable {
     }
 
     @Override
-    
+    public int hash()
 }
