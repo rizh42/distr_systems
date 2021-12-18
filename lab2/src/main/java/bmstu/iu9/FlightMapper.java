@@ -12,7 +12,6 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
     public static int FLIGHT_ID = 1;
     public static int DELAY_ID = 18;
 
-
     @Override
     protected ciod map(LongWritable key, Text value, Context context){
         String[] params = value.toString().split(SEP);
