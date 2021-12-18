@@ -30,7 +30,7 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
 
         if (count > 0){
             context.write(new Text("Airport name: " + air),
-                            new Text("min: " + min + ", max: " + max + ", avg: " + sum))
+                            new Text("min: " + min + ", max: " + max + ", avg: " + sum/count));
         }
     }
 }
