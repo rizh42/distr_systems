@@ -8,5 +8,5 @@ public class Flight implements Serializable {
     public float delayed;
     public boolean cancelled;
 
-    
+    public static int 
 }
