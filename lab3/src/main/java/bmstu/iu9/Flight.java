@@ -25,6 +25,7 @@ public class Flight implements Serializable {
     }
 
     public static Flight getData(String CSV){
-        String[] list = CSV.replaceAll("\"", "")
+        String[] list = CSV.replaceAll("\"", "").split(",");
+        
     }
 }
