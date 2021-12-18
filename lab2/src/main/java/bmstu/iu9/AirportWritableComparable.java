@@ -2,6 +2,8 @@ package bmstu.iu9;
 
 import org.apache.hadoop.io.WritableComparable;
 
+import java.io.DataOutput;
+
 public class AirportWritableComparable implements WritableComparable {
     private int airportID;
     private int ind;
@@ -30,5 +32,5 @@ public class AirportWritableComparable implements WritableComparable {
     }
 
     @Override
-    public void readFields(Data)
+    public void readFields(DataOutput )
 }
