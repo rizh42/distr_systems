@@ -22,7 +22,7 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
                 max = delay;
             }
             if (min == -1 || delay < min){
-                min = delay
+                min = delay;
             }
         }
     }
