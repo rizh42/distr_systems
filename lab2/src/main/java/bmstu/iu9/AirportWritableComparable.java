@@ -54,6 +54,7 @@ public class AirportWritableComparable implements WritableComparable {
     public int compareTo(Object t){
         AirportWritableComparable air = (AirportWritableComparable)t;
         if (this.airportID > air.airportID) return 1;
+        if (this.airportID < air.airportID) return -1;
         
     }
 }
