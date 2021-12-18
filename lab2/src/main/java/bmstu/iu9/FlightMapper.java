@@ -21,7 +21,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
             float delayFl = delay.isEmpty() ? 0.0f : Float.parseFloat(delay);
             if (delayFl > 0.0f){
                 int airID = Integer.parseInt(params[AIRPORT_ID]);
-                context.write(new AirportWritableComparable(airID, FLIGHT_ID), new Text(delay))
+                context.write(new AirportWritableComparable(airID, FLIGHT_ID), new Text(delay));
             }
         }
     }
