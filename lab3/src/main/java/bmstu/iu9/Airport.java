@@ -11,5 +11,5 @@ public class Airport implements Serializable {
         this.name = name;
     }
 
-    
+    public static Airport getData
 }
