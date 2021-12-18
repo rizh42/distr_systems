@@ -47,6 +47,6 @@ public class AirportWritableComparable implements WritableComparable {
     public String toString(){
         return "AirportWritable(" +
                 "airportID = " + airportID +
-                ", ind = " + ind;
+                ", ind = " + ind + ")";
     }
 }
