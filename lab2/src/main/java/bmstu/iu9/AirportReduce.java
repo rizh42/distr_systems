@@ -11,6 +11,7 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
     protected void reduce(AirportWritableComparable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> valIterated = values.iterator();
         String air = valIterated.next().toString();
+        float max = 0.0f;
         
     }
 }
