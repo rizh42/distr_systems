@@ -28,6 +28,8 @@ public class Flight implements Serializable {
         String[] list = CSV.replaceAll("\"", "").split(",");
         return new Flight(
                 list[START_AIRPORT_ID_IND],
+                list[DEST_AIRPORT_ID_IND],
+                list[DELAY_IND],
                 list[]
         )
     }
