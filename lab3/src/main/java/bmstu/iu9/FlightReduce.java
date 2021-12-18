@@ -1,6 +1,6 @@
 package bmstu.iu9;
 
-import java.io.Serializable;
+import scala.Serializable;
 
 public class FlightReduce implements Serializable {
     public float maxDelay;

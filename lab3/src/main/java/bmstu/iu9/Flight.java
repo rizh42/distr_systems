@@ -1,6 +1,6 @@
 package bmstu.iu9;
 
-import java.io.Serializable;
+import scala.Serializable;
 import scala.Tuple2;
 
 public class Flight implements Serializable {
