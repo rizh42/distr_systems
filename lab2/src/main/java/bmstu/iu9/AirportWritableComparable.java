@@ -29,5 +29,6 @@ public class AirportWritableComparable implements WritableComparable {
         this.ind = ind;
     }
 
+    @Override
     
 }
