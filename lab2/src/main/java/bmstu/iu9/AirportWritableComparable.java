@@ -24,5 +24,5 @@ public class AirportWritableComparable implements WritableComparable {
         return ind;
     }
 
-    public 
+    public AirportWritableComparable
 }
