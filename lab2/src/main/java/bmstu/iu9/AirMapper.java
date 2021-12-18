@@ -9,5 +9,5 @@ public class AirMapper extends Mapper<LongWritable, Text>{
     public statit int air_id = 0;
 
     @Override
-    protected void map(LongWritable )
+    protected void map(LongWritable key, )
 }
