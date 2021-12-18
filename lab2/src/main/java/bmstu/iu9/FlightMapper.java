@@ -1,6 +1,6 @@
 package bmstu.iu9;
 
-import 
+import org.apache.
 
 public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComparable, Text> {
 
