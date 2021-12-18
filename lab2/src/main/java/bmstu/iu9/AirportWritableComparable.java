@@ -66,5 +66,6 @@ public class AirportWritableComparable implements WritableComparable {
         return (airportID == air.airportID) && (ind == air.ind);
     }
 
+    @Override
     
 }
