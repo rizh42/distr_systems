@@ -16,5 +16,13 @@ public class AirportWritableComparable implements WritableComparable {
         this.ind = ind;
     }
 
-    public 
+    public int getAirportID() {
+        return airportID;
+    }
+
+    public int getInd() {
+        return ind;
+    }
+
+    
 }
