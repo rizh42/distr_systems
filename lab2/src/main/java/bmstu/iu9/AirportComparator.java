@@ -7,4 +7,7 @@ public class AirportComparator extends WritableComparator {
     protected AirportComparator(){
         super(AirportWritableComparable.class, true);
     }
+
+    @Override
+    
 }
