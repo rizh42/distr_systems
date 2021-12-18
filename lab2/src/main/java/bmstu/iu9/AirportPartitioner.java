@@ -1,6 +1,7 @@
 package bmstu.iu9;
 
 import org.hadoop.io.Text;
+import org.hadoop.io.Text;
 
 
 public class AirportPartitioner extends Partitioner<AirportWritableComparable, Text>{
