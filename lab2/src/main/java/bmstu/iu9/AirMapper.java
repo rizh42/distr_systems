@@ -5,7 +5,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 
-public class AirMapper extends Mapper<LongWritable, Text, WritableComparable, Text>{
+public class AirMapper extends Mapper<LongWritable, Text, AirportWritableComparable, Text>{
     @Override
     protected void map(LongWritable key, Text value){
         String[] params = value.toString().split("\",\"");
@@ -14,7 +14,7 @@ public class AirMapper extends Mapper<LongWritable, Text, WritableComparable, Te
             String name;
             int airID = Integer.parseInt(params[0].split("\"")[1]);
             name = params[1].split("\"")[0];
-            context.write(new WritableComparable(airID, 0), new Text(name));
+            context.write(new AirportWritableComparable(airID, 0), new Text(name));
         }
     }
 }

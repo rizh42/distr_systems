@@ -2,7 +2,8 @@ package bmstu.iu9;
 
 import java.io.*;
 import java.util.Objects;
-import org.apache.hadoop.io.WritableComparable
+import org.apache.hadoop.io.WritableComparable;
 
-public class WritableComparable {
+public class AirportWritableComparable implements WritableComparable {
+
 }
