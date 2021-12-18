@@ -1,6 +1,7 @@
 package bmstu.iu9;
 
 import scala.Serializable;
+import scala.Tuple2;
 
 public class Airport implements Serializable {
     public int code;
@@ -19,5 +20,5 @@ public class Airport implements Serializable {
         );
     }
 
-    public final 
+    public final Tuple2
 }
