@@ -13,5 +13,5 @@ public class Flight implements Serializable {
     public static int DELAY_IND = 17;
     public static int CANCELLED_IND = 19;
 
-    public Flight()
+    public Flight(int startAirportId)
 }
