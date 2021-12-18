@@ -12,6 +12,7 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
         Iterator<Text> valIterated = values.iterator();
         String air = valIterated.next().toString();
         float max = 0.0f;
+        float sum = 0.0f;
         
     }
 }
