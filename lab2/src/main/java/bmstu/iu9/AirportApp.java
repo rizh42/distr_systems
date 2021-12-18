@@ -1,5 +1,7 @@
 package bmstu.iu9;
 
+import java.io.FileOutputStream;
+
 public class AirportApp {
     public static void main(String[] args) throws Exception {
         if (args.length != 3){
@@ -18,6 +20,6 @@ public class AirportApp {
         job.setPartitionerClass(AirportPartitioner.class);
         job.setGroupingComparatorClass(AirportComparator.class);
 
-        
+        FileOutputFormat 
     }
 }
