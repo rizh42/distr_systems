@@ -11,7 +11,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
         String[] params = value.toString().split(SEP);
 
         if(key.get() > 0){
-            String delay =  
+            String delay =  params[]
         }
     }
 }
