@@ -2,5 +2,5 @@ package bmstu.iu9;
 
 public class AirportPartitioner extends Partitioner<AirportWritableComparable, Text>{
     @Override
-    public int getPartition(AirportWritableComparable key, )
+    public int getPartition(AirportWritableComparable key, Text )
 }
