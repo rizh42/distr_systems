@@ -29,7 +29,7 @@ public class Flight implements Serializable {
         return new Flight(
                 Integer.parseInt(list[START_AIRPORT_ID_IND]),
                 Integer.parseInt(list[DEST_AIRPORT_ID_IND]),
-                list[DELAY_IND],
+                Float.parseFloat(list[DELAY_IND]),
                 list[CANCELLED_IND].isEmpty()
         );
     }
