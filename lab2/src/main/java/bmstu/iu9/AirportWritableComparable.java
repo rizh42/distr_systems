@@ -4,6 +4,7 @@ import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataOutput;
 import java.io.IOException;
+import java.util.
 
 public class AirportWritableComparable implements WritableComparable {
     private int airportID;
