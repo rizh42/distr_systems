@@ -14,7 +14,7 @@ public class AirMapper extends Mapper<LongWritable, Text>{
 
         if(key.get > 0){
             String name;
-            int airID = Integer.parseInt(params[])
+            int airID = Integer.parseInt(params[0].)
         }
     }
 }
