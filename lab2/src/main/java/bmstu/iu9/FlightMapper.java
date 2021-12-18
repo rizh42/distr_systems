@@ -1,4 +1,4 @@
 package bmstu.iu9;
 
-public class FlightMapper {
+public class FlightMapper extends Mapper<> {
 }
