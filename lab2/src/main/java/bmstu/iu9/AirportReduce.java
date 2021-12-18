@@ -16,6 +16,8 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
         int count = 0;
         float min = -1.0f;
 
-        while (valIterated )
+        while (valIterated.hasNext()){
+            
+        }
     }
 }
