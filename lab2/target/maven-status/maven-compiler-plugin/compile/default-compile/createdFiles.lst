@@ -1,4 +1,7 @@
 bmstu/iu9/AirportMapper.class
+bmstu/iu9/AirportComparator.class
 bmstu/iu9/AirportApp.class
 bmstu/iu9/AirportWritableComparable.class
+bmstu/iu9/FlightMapper.class
+bmstu/iu9/AirportPartitioner.class
 bmstu/iu9/AirportReduce.class
