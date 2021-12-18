@@ -8,6 +8,7 @@ public class AirportApp {
         }
 
         Job job = Job.getInstance();
-        job.getJarByClass()
+        job.getJarByClass(Airport.class);
+        
     }
 }
