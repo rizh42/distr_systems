@@ -1,4 +1,5 @@
 package bmstu.iu9;
 
-public class AirporPartitioner extends Partitioner<AirportWritableComparable, >{
+public class AirportPartitioner extends Partitioner<AirportWritableComparable, Text>{
+    
 }
