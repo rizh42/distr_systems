@@ -55,6 +55,6 @@ public class AirportWritableComparable implements WritableComparable {
         AirportWritableComparable air = (AirportWritableComparable)t;
         if (this.airportID > air.airportID) return 1;
         if (this.airportID < air.airportID) return -1;
-        return Integer 
+        return Integer.compare
     }
 }
