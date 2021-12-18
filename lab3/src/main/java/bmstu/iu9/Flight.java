@@ -6,5 +6,7 @@ public class Flight implements Serializable {
     public int startAirportId;
     public int destAirportId;
     public float delayed;
-    public 
+    public boolean cancelled;
+
+    
 }
