@@ -25,6 +25,6 @@ public class Flight implements Serializable {
     }
 
     public static Flight getData(String CSV){
-        
+        String[] list 
     }
 }
