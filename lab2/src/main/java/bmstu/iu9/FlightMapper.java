@@ -13,7 +13,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComp
     public static int DELAY_ID = 18;
 
     @Override
-    protected viod map(LongWritable key, Text value, Context context){
+    protected void map(LongWritable key, Text value, Context context){
         String[] params = value.toString().split(SEP);
 
         if(key.get() > 0){
