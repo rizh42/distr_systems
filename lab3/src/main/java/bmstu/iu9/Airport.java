@@ -11,5 +11,7 @@ public class Airport implements Serializable {
         this.name = name;
     }
 
-    public static Airport getData
+    public static Airport getData(String CSV){
+        
+    }
 }
