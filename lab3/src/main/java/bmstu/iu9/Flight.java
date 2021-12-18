@@ -21,6 +21,8 @@ public class Flight implements Serializable {
     }
 
     public Tuple2<Tuple2<int, int>, Flight> getTupleWithAirports(){
-        return new Tuple2<>(new Tuple2<>(startAirportId, ))
+        return new Tuple2<>(new Tuple2<>(startAirportId, destAirportId), this);
     }
+
+    
 }
