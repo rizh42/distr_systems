@@ -3,6 +3,7 @@ package bmstu.iu9;
 import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataOutput;
+import java.io.DataInput;
 import java.io.IOException;
 import java.util.Objects;
 
