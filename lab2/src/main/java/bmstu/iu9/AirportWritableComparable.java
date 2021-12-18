@@ -42,4 +42,7 @@ public class AirportWritableComparable implements WritableComparable {
         data.writeInt(airportID);
         data.writeInt(ind);
     }
+
+    @Override
+    
 }
