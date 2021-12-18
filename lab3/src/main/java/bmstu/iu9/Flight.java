@@ -20,15 +20,15 @@ public class Flight implements Serializable {
         this.cancelled = cancelled;
     }
 
-    public Tuple2<Tuple2<int, int>, Flight> getTupleWithAirports(){
+    public Tuple2<Tuple2<Integer, Integer>, Flight> getTupleWithAirports(){
         return new Tuple2<>(new Tuple2<>(startAirportId, destAirportId), this);
     }
 
     public static Flight getData(String CSV){
         String[] list = CSV.replaceAll("\"", "").split(",");
         return new Flight(
-                list[START_AIRPORT_ID_IND],
-                list[DEST_AIRPORT_ID_IND],
+                Integer.parseInt(list[START_AIRPORT_ID_IND]),
+                Integer.parseInt(list[DEST_AIRPORT_ID_IND]),
                 list[DELAY_IND],
                 list[CANCELLED_IND].isEmpty()
         );
