@@ -1,6 +1,6 @@
 package bmstu.iu9;
 
-
+import 
 
 public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComparable, Text> {
 
