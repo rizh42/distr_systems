@@ -11,5 +11,5 @@ public class Flight implements Serializable {
     public static int START_AIRPORT_ID_IND = 11;
     public static int DEST_AIRPORT_ID_IND = 14;
     public static int DELAY_IND = 17;
-    public static int 
+    public static int CANCELLED_IND = 18;
 }
