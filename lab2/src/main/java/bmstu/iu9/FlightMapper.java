@@ -4,7 +4,7 @@ package bmstu.iu9;
 
 public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComparable, Text> {
 
-    public static String 
+    public static String SEP = 
 
     @Override
     protected ciod map(LongWritable key, Text value, Context context){
