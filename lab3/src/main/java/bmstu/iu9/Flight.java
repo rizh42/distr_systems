@@ -1,6 +1,7 @@
 package bmstu.iu9;
 
 import java.io.Serializable;
+import scala.Tuple2;
 
 public class Flight implements Serializable {
     public int startAirportId;
