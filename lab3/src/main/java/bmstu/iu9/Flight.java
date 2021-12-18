@@ -20,5 +20,7 @@ public class Flight implements Serializable {
         this.cancelled = cancelled;
     }
 
-    public Tuple2<Tuple2<int, int>, Flight> get
+    public Tuple2<Tuple2<int, int>, Flight> getTupleWithAirports(){
+        
+    }
 }
