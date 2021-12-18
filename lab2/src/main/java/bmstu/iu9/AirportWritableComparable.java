@@ -51,7 +51,7 @@ public class AirportWritableComparable implements WritableComparable {
     }
 
     @Override
-    publicInt(Object t){
-        
+    public int (Object t){
+
     }
 }
