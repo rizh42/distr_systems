@@ -9,6 +9,6 @@ public class AirportApp {
 
         Job job = Job.getInstance();
         job.getJarByClass(Airport.class);
-        
+        job.setJobName()
     }
 }
