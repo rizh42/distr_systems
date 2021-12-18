@@ -57,4 +57,6 @@ public class AirportWritableComparable implements WritableComparable {
         if (this.airportID < air.airportID) return -1;
         return Integer.compare(this.ind, air.ind);
     }
+
+    
 }
