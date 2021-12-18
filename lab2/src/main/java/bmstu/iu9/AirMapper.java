@@ -10,6 +10,6 @@ public class AirMapper extends Mapper<LongWritable, Text>{
 
     @Override
     protected void map(LongWritable key, Text value){
-        String[] params = value.toString().
+        String[] params = value.toString().split()
     }
 }
