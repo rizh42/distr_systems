@@ -20,6 +20,6 @@ public class AirportApp {
         job.setPartitionerClass(AirportPartitioner.class);
         job.setGroupingComparatorClass(AirportComparator.class);
 
-        FileOutputFormat.setOutputPath()
+        FileOutputFormat.setOutputPath(job, new )
     }
 }
