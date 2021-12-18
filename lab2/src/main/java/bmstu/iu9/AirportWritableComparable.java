@@ -62,6 +62,6 @@ public class AirportWritableComparable implements WritableComparable {
     public boolean equals(Object t){
         if (this == t) return true;
         if (t == null || getClass() != t.getClass()) return false;
-        
+        AirportWritableComparable air = 
     }
 }
