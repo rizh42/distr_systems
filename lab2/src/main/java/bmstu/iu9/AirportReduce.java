@@ -28,6 +28,8 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
             count++;
         }
 
-        if 
+        if (count > 0){
+            
+        }
     }
 }
