@@ -58,5 +58,6 @@ public class AirportWritableComparable implements WritableComparable {
         return Integer.compare(this.ind, air.ind);
     }
 
+    @Override
     
 }
