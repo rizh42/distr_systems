@@ -10,7 +10,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportWritableCom
     protected void map(LongWritable key, Text value){
         String[] params = value.toString().split("\",\"");
 
-        if(key.get > 0){
+        if(key.get() > 0){
             String name;
             int airID = Integer.parseInt(params[0].split("\"")[1]);
             name = params[1].split("\"")[0];
