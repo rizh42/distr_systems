@@ -24,5 +24,7 @@ public class Flight implements Serializable {
         return new Tuple2<>(new Tuple2<>(startAirportId, destAirportId), this);
     }
 
-    public static Flight getData()
+    public static Flight getData(String CSV){
+        
+    }
 }
