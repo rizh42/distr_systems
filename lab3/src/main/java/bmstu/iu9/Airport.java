@@ -20,5 +20,5 @@ public class Airport implements Serializable {
         );
     }
 
-    public final Tuple2
+    public final Tuple2<Integer, String>
 }
