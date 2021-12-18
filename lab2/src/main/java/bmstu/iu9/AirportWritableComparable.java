@@ -59,5 +59,7 @@ public class AirportWritableComparable implements WritableComparable {
     }
 
     @Override
-    public boolean equals 
+    public boolean equals(Object t){
+        
+    }
 }
