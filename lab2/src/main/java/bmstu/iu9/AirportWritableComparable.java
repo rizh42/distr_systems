@@ -44,5 +44,7 @@ public class AirportWritableComparable implements WritableComparable {
     }
 
     @Override
-    public String toString()
+    public String toString(){
+        return 
+    }
 }
