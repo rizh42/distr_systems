@@ -14,6 +14,8 @@ public class AirportReduce extends Reducer<AirportWritableComparable, Text, Text
         float max = 0.0f;
         float sum = 0.0f;
         int count = 0;
+        float min = -1.0f;
+
         
     }
 }
