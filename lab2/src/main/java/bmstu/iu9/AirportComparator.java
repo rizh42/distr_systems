@@ -9,5 +9,5 @@ public class AirportComparator extends WritableComparator {
     }
 
     @Override
-    public int compare()
+    public int compare(WritableComparable )
 }
