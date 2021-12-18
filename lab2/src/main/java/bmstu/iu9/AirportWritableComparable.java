@@ -61,6 +61,6 @@ public class AirportWritableComparable implements WritableComparable {
     @Override
     public boolean equals(Object t){
         if (this == t) return true;
-        if (t == null || )
+        if (t == null || getClass() )
     }
 }
