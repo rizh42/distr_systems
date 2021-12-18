@@ -3,6 +3,7 @@ package bmstu.iu9;
 import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataOutput;
+import java.io.IOException;
 
 public class AirportWritableComparable implements WritableComparable {
     private int airportID;
@@ -38,7 +39,7 @@ public class AirportWritableComparable implements WritableComparable {
     }
 
     @Override
-    public void write(DataOutput data) throws {
+    public void write(DataOutput data) throws IOException {
         data.writeInt(airportID);
         data.writeInt(ind);
     }
