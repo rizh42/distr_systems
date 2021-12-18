@@ -6,5 +6,7 @@ public class Airport implements Serializable {
     public int code;
     public String name;
 
-    public Airport(int code, )
+    public Airport(int code, String name){
+        
+    }
 }
