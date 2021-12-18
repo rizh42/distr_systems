@@ -38,7 +38,7 @@ public class AirportWritableComparable implements WritableComparable {
     }
 
     @Override
-    public void writable(DataOutput data){
+    public void write(DataOutput data){
         this.airportID = data.readInt();
         this.ind = data.readInt();
     }
